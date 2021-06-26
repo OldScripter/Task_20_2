@@ -36,7 +36,7 @@ int main() {
     height = getIntFromKeyboard();
     std::cout << "You've entered: " << height << "\n";
 
-    std::ofstream outputStream(OUTPUT_PATH, std::ios::binary);
+    std::ofstream outputStream(OUTPUT_PATH);
     if (outputStream.is_open())
     {
         for (int h = 0; h < height; h++)
