@@ -20,7 +20,6 @@ int getIntFromKeyboard()
             std::cerr << "Bad input. Try again.\n";
         }
     } while (true);
-
 }
 
 int main() {
